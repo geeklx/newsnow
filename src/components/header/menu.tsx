@@ -65,7 +65,7 @@ export function Menu() {
                     </li>
                   ))}
               <ThemeToggle />
-              <li onClick={() => window.open(Homepage)}>
+              <li onClick={() => window.open("https://github.com/geeklx")}>
                 <span className="i-ph:github-logo-duotone inline-block" />
                 <span>Star on Github </span>
               </li>
